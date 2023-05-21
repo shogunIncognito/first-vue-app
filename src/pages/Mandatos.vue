@@ -30,7 +30,7 @@
 
 <style scoped>
   div {
-    margin: 3pc 0;  
+    margin: 7.5pc 0;  
   }
 
   h2 {

@@ -11,9 +11,9 @@
 
     <nav>
       <ul>
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#mandatos">Mandatos</a></li>
-        <li><a href="#about">Acerca de mi</a></li>
+        <li><RouterLink to="/">Inicio</RouterLink></li>
+        <li><RouterLink to="/mandatos">Mandatos</RouterLink></li>
+        <li><RouterLink to="/about">Acerca de mi</RouterLink></li>
       </ul>
     </nav>
 
@@ -43,11 +43,12 @@
     color: black;
     padding: 15px;
     color: white;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    transition: border-color 0.2s ease-in-out;    
   }
 
   a:hover {
-    background-color: #f2f2f2;
-    border-radius: 5px;
-    color: black;
+    border-color: white;
   }
 </style>

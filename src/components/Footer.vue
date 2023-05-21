@@ -34,6 +34,7 @@
     align-items: center;
     padding: 20px 0;
     background-color: #000000;
+    bottom: 0;
   }
 
   p {
