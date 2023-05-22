@@ -14,6 +14,7 @@
         <li><RouterLink to="/">Inicio</RouterLink></li>
         <li><RouterLink to="/mandatos">Mandatos</RouterLink></li>
         <li><RouterLink to="/about">Acerca de mi</RouterLink></li>
+        <li><RouterLink to="/test/pollo">TEST</RouterLink></li>
       </ul>
     </nav>
 
