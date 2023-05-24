@@ -40,7 +40,7 @@
 
   p {
     font-size: 1.2rem;
-    margin-top: 1pc;
+    margin: 1pc;
   }
 
   #mandatos {
@@ -67,5 +67,11 @@
   #mandatos div h3 {
     font-size: 1.5rem;
     margin-bottom: 1pc;
+  }
+
+  @media (max-width: 500px) {
+    div {
+      margin-top: 20pc;
+    }
   }
 </style>

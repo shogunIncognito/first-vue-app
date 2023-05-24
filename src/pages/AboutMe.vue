@@ -15,7 +15,7 @@
   background-image:
     url('https://cdn.wallpapersafari.com/58/35/YDXOl2.jpg');
   height: 80vh;
-  width: 50%;
+  width: 100%;
   background-position: center;
   background-size: cover;
 }
@@ -26,7 +26,7 @@
 }
 
 .sidecontent {
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,6 +41,21 @@ h2 {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.2rem;  
+}
+
+@media (max-width: 500px) {
+  .sidecontainer {
+    margin-top: 50pc;
+    flex-direction: column;
+  }
+
+  .sidecontent {
+    margin: 30px 0;    
+  }
+
+  p {
+    padding: 20px;
+  }
 }
 </style>

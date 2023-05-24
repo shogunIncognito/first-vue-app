@@ -35,6 +35,7 @@
     padding: 20px 0;
     background-color: #000000;
     bottom: 0;
+    text-align: center;
   }
 
   p {
@@ -51,5 +52,16 @@
   li {
     list-style: none;
     padding: 5px;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  @media (max-width: 500px) {
+    footer {
+      flex-direction: column;
+      gap: 25px;
+    }
   }
 </style>

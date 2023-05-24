@@ -25,6 +25,7 @@
   justify-content: center;
   flex-direction: column;
   gap: 10px;
+  text-align: center;
 }
 
 a {
@@ -46,5 +47,11 @@ a:hover {
 h2 {
   font-size: 2rem;
   margin-bottom: 1pc;
+}
+
+@media (max-width: 500px) {
+  h2 {
+    margin: 0 10px;
+  }
 }
 </style>

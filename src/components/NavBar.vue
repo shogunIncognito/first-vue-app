@@ -52,4 +52,21 @@
   a:hover {
     border-color: white;
   }
+
+  @media (max-width: 500px) {
+    header {
+      flex-direction: column;      
+      text-align: center;
+      justify-content: center;
+    }
+
+    ul {
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    a {
+      padding: 10px;
+    }
+  }
 </style>
